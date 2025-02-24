@@ -82,10 +82,10 @@ onMounted(() => {
   <div class="grid grid-cols-4 gap-4">
     <ImageCard
         v-for="(image) in gameBoard"
-        :key="id"
+        :key="image.id"
         :image="image"
         @click="clickCounter++"
-        @flip="flipTile"
+        @flip="(image) => flipTile(image)"
     />
 
   </div>

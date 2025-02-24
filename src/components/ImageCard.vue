@@ -6,7 +6,9 @@ const props = defineProps<{
   image: Image;
 }>();
 
-const emit = defineEmits<{ flip: (image: Image) => void }>();
+const emit = defineEmits<{
+  (event: "flip", image: Image): void;
+}>();
 
 
 function handleClick() {
