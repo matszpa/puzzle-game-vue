@@ -17,3 +17,7 @@ pairs of images within different difficulty levels.
 + TypeScript
 
 + Tailwind CSS
+
+# 🖥️ Live Demo
+
+Link to the live app: https://puzzle-game-vue-o853.vercel.app/
